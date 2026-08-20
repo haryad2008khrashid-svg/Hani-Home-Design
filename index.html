@@ -25,6 +25,7 @@
             align-items: center;
             overflow-x: hidden;
             position: relative;
+            padding: 15px;
         }
 
         /* باکگراوندی ئاڵتوونی و تاریقی شاهانە */
@@ -54,8 +55,16 @@
             z-index: 3;
             width: 100%;
             max-width: 440px;
-            padding: 12px;
+            padding: 25px 20px;
             text-align: center;
+            /* چوارچێوەی ئاڵتوونی شاهانە بۆ دەوروبەری ناوەڕۆکەکە */
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 28px;
+            background: rgba(12, 10, 7, 0.35);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15),
+                        inset 0 0 20px rgba(212, 175, 55, 0.1);
         }
 
         .profile-container {
@@ -129,7 +138,7 @@
             background: rgba(12, 10, 7, 0.65);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
-            border: 1px solid rgba(212, 175, 55, 0.25);
+            border: 1px solid rgba(212, 175, 55, 0.3);
             padding: 12px 16px;
             border-radius: 14px;
             text-decoration: none;
@@ -195,7 +204,7 @@
         .portfolio-section {
             margin-top: 22px;
             position: relative;
-            padding: 0 32px;
+            padding: 0 25px;
         }
 
         .portfolio-title {
@@ -230,8 +239,8 @@
         }
 
         .portfolio-item {
-            flex: 0 0 120px;
-            height: 140px;
+            flex: 0 0 115px;
+            height: 135px;
             border-radius: 12px;
             overflow: hidden;
             border: 2px solid rgba(212, 175, 55, 0.4);
